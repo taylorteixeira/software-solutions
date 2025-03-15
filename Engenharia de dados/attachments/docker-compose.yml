@@ -1,0 +1,21 @@
+services:
+  mssqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssqlserver
+    hostname: mssqlserver
+    restart: always
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "satc@2025"
+      MSSQL_PID: "Developer"
+    ports:
+      - 1435:1433
+    volumes:
+      - mssql_data:/var/opt/mssql
+
+volumes:
+  mssql_data:
+networks:
+  proxy:
+    name: proxy
+    external: true

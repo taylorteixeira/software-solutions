@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"73bb264c706837ef","x":-400,"y":-120,"width":180,"height":140,"type":"text","text":"WIndows"},
+		{"id":"2fe1af0142c3352d","type":"text","text":"Máquina Virtual Ubuntu","x":-100,"y":-120,"width":180,"height":140},
+		{"id":"f7679fd6138bce65","type":"text","text":"Container docker - SQL Server 2022","x":220,"y":-120,"width":180,"height":140},
+		{"id":"a4da1e5cda6d5791","x":40,"y":-483,"width":240,"height":200,"type":"file","file":"1. Projetos/SATC/Engenharia de dados/Docker SQL Server.md"},
+		{"id":"806b0dfb1771e3ee","x":-280,"y":-483,"width":230,"height":200,"type":"file","file":"1. Projetos/SATC/Engenharia de dados/Configurando o redirecionamento de portas TCP no Oracle Virtual Box.md"}
+	],
+	"edges":[
+		{"id":"ba92ce96d50d8a70","fromNode":"73bb264c706837ef","fromSide":"top","toNode":"2fe1af0142c3352d","toSide":"top","label":"1433 : 1433"},
+		{"id":"493ac209293d4067","fromNode":"2fe1af0142c3352d","fromSide":"top","toNode":"f7679fd6138bce65","toSide":"top","label":"1433 : 1433"},
+		{"id":"4755b8465e4383d2","fromNode":"a4da1e5cda6d5791","fromSide":"right","toNode":"17ce3846de3cd4ef","toSide":"left"}
+	]
+}
