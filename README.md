@@ -1,6 +1,6 @@
 #  Solutions Academic Projects
 
-This repository houses a collection of academic projects completed for the Mobile Solutions course/program.  It showcases my learning journey and practical application of mobile development concepts, spanning various platforms, technologies, and development approaches.
+This repository houses a collection of academic projects completed for the Solutions course/program.  It showcases my learning journey and practical application of mobile development concepts, spanning various platforms, technologies, and development approaches.
 
 ## Repository Structure
 
