@@ -1,6 +1,12 @@
-#  Solutions Academic Projects
 
+#  Solutions Academic Projects
+<p align="center">
 This repository houses a collection of academic projects completed for the Solutions course/program.  It showcases my learning journey and practical application of software development concepts, spanning various platforms, technologies, and development approaches.
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p> 
 
 ## Repository Structure
 
@@ -10,7 +16,6 @@ The repository is organized by project, with each folder containing the followin
 * **README.md:** A detailed project description including setup instructions, features, and any relevant documentation.
 * **Assets:**  Resources such as images, icons, audio files, and other assets used in the project.
 * **Documentation (if applicable):**  Supplementary documentation like reports, diagrams, or design specifications.
-
 
 
 ## Technologies Used
